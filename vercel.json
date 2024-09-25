@@ -6,6 +6,12 @@
       "use": "@vercel/node@3.2.16"
     }
   ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
